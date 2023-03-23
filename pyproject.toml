@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "haystack_claude_node"
+version = "0.0.1"
+authors = [
+  { name="recrudesce", email="recrudesce@gmail.com" },
+]
+description = "An Generative Answer node for Anthropic Claude"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "anthropic-sdk-python @ git+ssh://git@github.com/anthropics/anthropic-sdk-python"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/recrudesce/haystack_translate_node"
+"Bug Tracker" = "https://github.com/recrudesce/haystack_translate_node/issues"
+
