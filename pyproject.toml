@@ -18,7 +18,7 @@ classifiers = [
 ]
 
 dependencies = [
-  "anthropic @ git+ssh://git@github.com/anthropics/anthropic-sdk-python".
+  "anthropic @ git+ssh://git@github.com/anthropics/anthropic-sdk-python",
   "farm-haystack"
 ]
 
