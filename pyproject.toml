@@ -25,3 +25,5 @@ dependencies = [
 "Homepage" = "https://github.com/recrudesce/haystack_translate_node"
 "Bug Tracker" = "https://github.com/recrudesce/haystack_translate_node/issues"
 
+[tool.hatch.metadata]
+allow-direct-references = true
